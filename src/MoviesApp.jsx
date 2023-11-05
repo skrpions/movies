@@ -41,7 +41,7 @@ export const MoviesApp = () => {
                 {movies?.results?.map(movie => (
                     <div className='movie-card' key={movie.id} >
                         <img src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} alt={movie.title} />
-                        <h3>{movie.title}</h3>
+                        <h2>{movie.title}</h2>
                         <p>{movie.overview}</p>
                     </div>
                 ))}

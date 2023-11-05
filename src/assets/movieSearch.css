@@ -3,7 +3,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: url(./bd2.jpg);
+    background-size: cover;
+    color: white;
+    /* background-color: #f4f4f4; */
   }
   
   .container {
@@ -70,6 +73,7 @@ body {
   
   .movie-card p {
     margin-bottom: 5px;
+    color: black;
   }
   
   /* Estilos para móviles */
